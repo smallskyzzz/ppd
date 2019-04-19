@@ -1,0 +1,109 @@
+.top-header{
+  height: 32px;
+  background-color: #313b50;
+  > .top-header-content{
+    position: relative;
+    text-align: right;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 32px;
+    //hover隐藏与显示
+    .menu{
+      display: inline-block;
+      font-size: 12px;
+      line-height: 32px;
+      .menu-up{
+        display: none;
+      }
+    }
+    .menu:hover{
+      .menu-down{
+        display: none;
+      }
+      .menu-up{
+        display: inline;
+      }
+    }
+    .menu:hover+.menu-content{
+      display: block;
+    }
+    .menu-content{
+      display: none;
+      width: 100px;
+      height: 70px;
+      position: absolute;
+      right: 0;
+      background-color: #fff;
+      border-radius: 5px;
+      font-size: 16px;
+      a {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+      }
+    }
+    .menu-content:hover{
+      display: block;
+      z-index: 999;
+    }
+  }
+}
+
+.nav-wrapper{
+  height: 80px;
+  .logo{
+    display: inline-block;
+    width: 209px;
+    height: 35px;
+    margin-top: 25px;
+    background: url("../images/logo.png") no-repeat;
+  }
+  .nav{
+    display: inline-block;
+    padding-left: 20px;
+    li{
+      margin-top: 25px;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 5px;
+      a,a:focus,a:hover{
+        border: 0;
+        font-size: 16px;
+        color: #222;
+      }
+      a:hover{
+        border-bottom: 3px solid #1b6d85;
+      }
+    }
+  }
+  .buttons{
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    padding: 0 10px;
+    .btn{
+      width: 90px;
+      line-height: 20px;
+      border-radius: 30px;
+      font-size: 14px;
+      span{
+        font-size: 10px;
+      }
+    }
+    .btn:first-of-type{
+      margin-right: 5px;
+      //渐变背景色
+      background-image: linear-gradient(90deg,#36a7f1,#49cbfe),linear-gradient(#32a3ef,#32a3ef);
+      color: #fff;
+    }
+    .btn:last-of-type{
+      margin-left: 5px;
+    }
+  }
+}
+
+.carousel{
+  padding: 0;
+}
