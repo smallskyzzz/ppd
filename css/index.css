@@ -65,6 +65,7 @@
   height: 35px;
   line-height: 35px;
   padding: 0 5px;
+  cursor: pointer;
 }
 .nav-wrapper .nav li a,
 .nav-wrapper .nav li a:focus,
@@ -102,5 +103,162 @@
 }
 .carousel {
   padding: 0;
+}
+.notice {
+  height: 40px;
+  margin-top: 10px;
+  padding: 0;
+}
+.notice .image {
+  width: 15px;
+  height: 15px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.notice .text {
+  line-height: 40px;
+  color: #666;
+  cursor: pointer;
+}
+.notice .time {
+  padding-left: 20px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer;
+}
+.notice .more {
+  float: right;
+  line-height: 40px;
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+}
+.intro {
+  height: 200px;
+}
+.intro .content {
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 46px;
+}
+.intro .content .content-item {
+  font-size: 0;
+  cursor: pointer;
+}
+.intro .content .content-item .image,
+.intro .content .content-item .text {
+  display: inline-block;
+}
+.intro .content .content-item .image {
+  width: 100px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.intro .content .content-item .text {
+  font-size: 14px;
+  line-height: 27px;
+}
+.intro .content .content-item .text p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #313b50;
+}
+.intro .content .content-item .text span {
+  font-size: 14px;
+  color: #999;
+}
+.intro .content .content-item:hover {
+  padding-top: 2px;
+}
+.intro .content .content-item:hover div,
+.intro .content .content-item:hover p,
+.intro .content .content-item:hover span {
+  color: #008aff;
+}
+.intro .data {
+  height: 50px;
+  border-top: 1px solid #efefef;
+}
+.intro .data .data-item {
+  line-height: 50px;
+  text-align: center;
+  color: #999;
+}
+.intro .data .data-item .number {
+  color: #008aff;
+}
+.intro .data .data-item .split {
+  float: right;
+  line-height: 50px;
+}
+.rainbow {
+  margin-top: 50px;
+  padding: 0;
+}
+.rainbow .header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.rainbow .header span {
+  font-size: 12px;
+  color: #999;
+}
+.rainbow .header .split {
+  font-size: 18px;
+}
+.rainbow .header .more {
+  float: right;
+}
+.rainbow .content .content-item {
+  cursor: pointer;
+}
+.rainbow .content .content-item .item-header {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rainbow .content .content-item .item-content {
+  padding-top: 20px;
+}
+.rainbow .content .content-item .item-content .left p:first-of-type {
+  line-height: 38px;
+  color: #fc2f1a;
+  font-size: 28px;
+}
+.rainbow .content .content-item .item-content .left p:last-of-type {
+  color: #999;
+  font-size: 14px;
+}
+.rainbow .content .content-item .item-content .right p:first-of-type {
+  line-height: 38px;
+  font-size: 16px;
+}
+.rainbow .content .content-item .item-content .right p:last-of-type {
+  color: #999;
+  font-size: 14px;
+}
+.rainbow .content .content-item:hover {
+  transform: scale(1.05);
+}
+.list-fast {
+  margin-top: 50px;
+  padding: 0;
+}
+.list-fast .header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.list-fast .header span {
+  font-size: 12px;
+  color: #999;
+}
+.list-fast .header .split {
+  font-size: 18px;
 }
 /*# sourceMappingURL=index.css.map */
