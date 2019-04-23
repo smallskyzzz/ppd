@@ -261,4 +261,112 @@
 .list-fast .header .split {
   font-size: 18px;
 }
+.list-fast .content {
+  margin-top: 30px;
+  text-align: center;
+}
+.list-fast .content .content-item {
+  padding: 20px 0;
+}
+.list-fast .content .content-item .title {
+  line-height: 60px;
+  font-size: 18px;
+  color: #313b50;
+}
+.list-fast .content .content-item .rate p {
+  margin: 0;
+  line-height: 40px;
+  font-size: 28px;
+  color: #fc2f1a;
+}
+.list-fast .content .content-item .rate span {
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}
+.list-fast .content .content-item .time p {
+  margin: 0;
+  line-height: 40px;
+  font-size: 20px;
+  color: #313b50;
+}
+.list-fast .content .content-item .time span {
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}
+.list-fast .content .content-item .info {
+  margin: 0;
+  line-height: 60px;
+}
+.list-fast .content .content-item .lend button {
+  width: 120px;
+  height: 36px;
+  margin-top: 12px;
+  line-height: 36px;
+  border: 1px solid #fc2f1a;
+  border-radius: 2px;
+  color: #fc2f1a;
+}
+.list-fast .content .content-item .lend button:hover {
+  background-color: #fc2f1a;
+  color: #fff;
+}
+.fast-lend {
+  margin-top: 50px;
+  padding: 0;
+}
+.fast-lend .header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fast-lend .header span {
+  font-size: 12px;
+  color: #999;
+}
+.fast-lend .content {
+  margin-top: 30px;
+}
+.fast-lend .content .content-item {
+  cursor: pointer;
+}
+.fast-lend .content .content-item .item-left {
+  margin-right: 200px;
+  text-align: center;
+}
+.fast-lend .content .content-item .item-left .title {
+  font-size: 28px;
+  color: #008aff;
+  line-height: 30px;
+  text-align: center;
+}
+.fast-lend .content .content-item .item-left .info {
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+}
+.fast-lend .content .content-item .item-left button {
+  width: 100px;
+  height: 30px;
+  margin-top: 45px;
+  border: 1px solid #373d42;
+  color: #313b50;
+}
+.fast-lend .content .content-item .item-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+.fast-lend .content .content-item .item-right img {
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+}
+.fast-lend .content .content-item:hover {
+  transform: scale(1.05);
+}
 /*# sourceMappingURL=index.css.map */

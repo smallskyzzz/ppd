@@ -1,4 +1,4 @@
-.top-header{
+﻿.top-header{
   height: 32px;
   background-color: #313b50;
   > .top-header-content{
@@ -269,6 +269,121 @@
     }
     .split {
       font-size: 18px;
+    }
+  }
+  .content{
+    margin-top: 30px;
+    text-align: center;
+    .content-item{
+        padding: 20px 0;
+      .title{
+        line-height: 60px;
+        font-size: 18px;
+        color: #313b50;
+      }
+      .rate{
+        p{
+          margin: 0;
+          line-height: 40px;
+          font-size: 28px;
+          color: #fc2f1a;
+        }
+        span{
+          line-height: 20px;
+          font-size: 12px;
+          color: #999;
+        }
+      }
+      .time{
+        p{
+          margin: 0;
+          line-height: 40px;
+          font-size: 20px;
+          color: #313b50;
+        }
+        span{
+          line-height: 20px;
+          font-size: 12px;
+          color: #999;
+        }
+      }
+      .info{
+        margin: 0;
+        line-height: 60px;
+      }
+      .lend{
+        button{
+          width: 120px;
+          height: 36px;
+          margin-top: 12px;
+          line-height: 36px;
+          border: 1px solid #fc2f1a;
+          border-radius: 2px;
+          color: #fc2f1a;
+        }
+        button:hover{
+          background-color: #fc2f1a;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.fast-lend{
+  margin-top: 50px;
+  padding: 0;
+  .header{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    span{
+      font-size: 12px;
+      color: #999;
+    }
+  }
+  .content{
+    margin-top: 30px;
+    .content-item{
+      cursor: pointer;
+      .item-left{
+        margin-right: 200px;
+        text-align: center;
+        .title{
+          font-size: 28px;
+          color: #008aff;
+          line-height: 30px;
+          text-align: center;
+        }
+        .info{
+          font-size: 14px;
+          color: #666;
+          line-height: 30px;
+          text-align: center;
+        }
+        button{
+          width: 100px;
+          height: 30px;
+          margin-top: 45px;
+          border: 1px solid #373d42;
+          color: #313b50;
+        }
+      }
+      .item-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        img{
+          width: 200px;
+          height: 200px;
+          background-size: 100% 100%;
+        }
+      }
+    }
+    .content-item:hover{
+      transform: scale(1.05);
     }
   }
 }
